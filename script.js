@@ -1,7 +1,7 @@
 const dynamicTitle = document.querySelector('.dynamic-title');
 
 // Define words to animate
-const words = ['Analyze', 'Predict', 'Win', 'Excel'];
+const words = ['Sales Analysis', 'Digital Shelf Optimization', 'Strategic Consulting', 'MarketplaceIP'];
 let wordIndex = 0;
 
 function changeWord() {
@@ -9,5 +9,5 @@ function changeWord() {
     wordIndex = (wordIndex + 1) % words.length;
 }
 
-// Update word every 2 seconds
+// Update word every 3 seconds
 setInterval(changeWord, 2000);
