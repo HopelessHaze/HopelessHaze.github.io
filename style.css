@@ -5,6 +5,7 @@ body {
     color: #333;
     background-color: #f4f5f7;
     line-height: 1.6;
+    overflow-x: hidden; /* Avoid scrolling due to animations */
 }
 
 /* Header Styles */
@@ -39,12 +40,18 @@ header .menu li a {
     text-align: center;
     padding: 4rem 2rem;
     background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    background-size: 200% 200%;
+    animation: gradientAnimation 6s infinite;
     color: white;
 }
 
 .hero h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin-bottom: 1rem;
+    background: linear-gradient(90deg, #ff6b6b, #ffd700, #4e54c8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: titleAnimation 4s infinite;
 }
 
 .hero p {
@@ -60,6 +67,11 @@ header .menu li a {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.hero .cta:hover {
+    transform: scale(1.1);
 }
 
 /* Features Section */
@@ -76,6 +88,12 @@ header .menu li a {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .feature h2 {
@@ -89,4 +107,17 @@ footer {
     padding: 1rem;
     background: #1a1a1d;
     color: white;
+}
+
+/* Animations */
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes titleAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
