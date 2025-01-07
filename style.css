@@ -6,7 +6,7 @@
 :root {
     --bg-dark: #000000;
     --bg-navy: #0C111F;
-    --text-gradient-start: #145da0; /* Blue */
+    --text-gradient-start: #a6a6a6; /* Grey */
     --text-gradient-end: #FFFFFF; /* White */
     --button-gradient-start: #145da0;
     --button-gradient-end: #FFFFFF;
