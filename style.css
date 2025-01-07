@@ -142,6 +142,7 @@ header .menu li a {
 
 /* Customer Reviews Section */
 .customer-reviews {
+    text-align: center;
     padding: 3rem;
 }
 
