@@ -36,7 +36,7 @@ header {
 
 header .logo {
     font-family: 'inherit', serif;
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: 700;
     text-shadow: 0px 0px 8px var(--text-gradient-start);
     animation: glowCycle 3s infinite alternate;
