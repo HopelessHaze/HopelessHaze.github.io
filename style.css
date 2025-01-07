@@ -126,7 +126,7 @@ header .menu li a {
 
 /* Customer Reviews */
 .customer-reviews {
-    font-size: 2.5rem; /* Increased from 2rem to 2.5rem */
+    font-size: 5rem; /* Increased from 2rem to 2.5rem */
     margin-bottom: 1.5rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
@@ -149,7 +149,7 @@ header .menu li a {
 .why-choose-us {
     text-align: center;
     padding: 2rem;
-    font-size: 2.5rem; /* Increased from 2rem to 2.5rem */
+    font-size: 5rem; /* Increased from 2rem to 2.5rem */
     margin-bottom: 1.5rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
