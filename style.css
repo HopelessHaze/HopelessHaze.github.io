@@ -308,7 +308,7 @@ header .menu li a {
     }
 
     .hero h1 {
-        font-size: 2.2rem; /* Resize font dynamically for smaller screens */
+        font-size: 1.5rem; /* Resize font dynamically for smaller screens */
         line-height: 1.2; /* Maintain good readability */
         white-space: nowrap; /* Prevent text wrapping */
         overflow: hidden; /* Ensure text doesn't break or overflow */
