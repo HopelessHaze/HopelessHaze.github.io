@@ -1,7 +1,7 @@
 const dynamicTitle = document.querySelector('.dynamic-title');
 
 // Define words to animate
-const words = ['Sales Analysis', 'Digital Shelf Optimization', 'Strategic Consulting', 'MarketplaceIP'];
+const words = ['Sales Analysis', 'Digital Shelf Optimization', 'Strategic Consulting', 'Welcome to MarketplaceIP'];
 let wordIndex = 0;
 
 function changeWord() {
