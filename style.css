@@ -6,8 +6,9 @@
 :root {
     --bg-dark: #000000;
     --bg-navy: #0C111F;
-    --text-gradient-start: #00E5FF;
-    --text-gradient-end: #FF8C42;
+    --text-gradient-start: #FF0000; /* Red */
+    --text-gradient-mid: #0000FF; /* Blue */
+    --text-gradient-end: #FFFFFF; /* White */
     --button-gradient-start: #00E5FF;
     --button-gradient-end: #FF8C42;
 }
@@ -65,7 +66,7 @@ header .menu li a {
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     letter-spacing: 0.05em;
-    background: linear-gradient(90deg, var(--text-gradient-start), var(--text-gradient-end));
+    background: linear-gradient(90deg, var(--text-gradient-start), var(--text-gradient-mid), var(--text-gradient-end));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: shineEffect 6s ease-in-out infinite;
@@ -75,7 +76,7 @@ header .menu li a {
     font-size: 1.2rem;
     margin: 1rem 0;
     font-family: 'Inter', sans-serif;
-    background: linear-gradient(90deg, var(--text-gradient-start), var(--text-gradient-end));
+    background: linear-gradient(90deg, var(--text-gradient-start), var(--text-gradient-mid), var(--text-gradient-end));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -127,7 +128,7 @@ header .menu li a {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     margin-bottom: 0.5rem;
-    background: linear-gradient(90deg, var(--text-gradient-start), var(--text-gradient-end));
+    background: linear-gradient(90deg, var(--text-gradient-start), var(--text-gradient-mid), var(--text-gradient-end));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -153,7 +154,7 @@ footer {
 
 @keyframes glowCycle {
     0% { text-shadow: 0px 0px 8px var(--text-gradient-start); }
-    50% { text-shadow: 0px 0px 15px var(--text-gradient-end); }
+    50% { text-shadow: 0px 0px 15px var(--text-gradient-mid); }
     100% { text-shadow: 0px 0px 8px var(--text-gradient-start); }
 }
 
