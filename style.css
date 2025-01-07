@@ -159,7 +159,7 @@ header .menu li a {
 .review-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid for reviews */
-    gap: 4rem;
+    gap: 3rem; /* Adjusted gap for better spacing between tiles */
 }
 
 .review {
@@ -171,6 +171,7 @@ header .menu li a {
     font-family: 'Inter', sans-serif;
     color: #ffffff;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 0 1rem; /* Added horizontal margin for better separation */
 }
 
 .review:hover {
