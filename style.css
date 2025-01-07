@@ -37,7 +37,6 @@ header .logo {
     font-family: 'Merriweather', serif;
     font-size: 2rem;
     font-weight: 700;
-    text-transform: lowercase;
     text-shadow: 0px 0px 8px var(--text-gradient-start);
     animation: glowCycle 3s infinite alternate;
 }
