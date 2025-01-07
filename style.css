@@ -301,14 +301,15 @@ header .menu li a {
         align-items: flex-start; /* Align navigation links to the left */
 
     .features, .review-grid {
-        grid-template-columns: 1fr; /* Single column layout on smaller screens */
-        padding: 1rem;
-        gap: 5rem; /* Increased spacing between feature tiles */
-    }
+    display: grid;
+    grid-template-columns: 1fr; /* Single column layout on smaller screens */
+    padding: 1rem;
+    gap: 2rem; /* Ensure consistent spacing between tiles */
+}
 
-    .feature, .review {
-        margin-bottom: 1rem;
-    }
+.feature, .review {
+    margin-bottom: 2rem; /* Add spacing at the bottom of each tile */
+}
 
     .hero h1 {
         font-size: 1.2rem; /* Resize font dynamically for smaller screens */
