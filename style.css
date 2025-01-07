@@ -292,7 +292,7 @@ header .menu li a {
         flex-direction: column; /* Stack logo and navigation vertically */
         text-align: left; /* Align the header content to the left */
         align-items: flex-start; /* Ensure content aligns to the left */
-        padding-left: 1rem; /* Add padding for a clean look */
+        padding-left: 0rem; /* Add padding for a clean look */
     }
 
     header .menu {
