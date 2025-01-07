@@ -159,7 +159,7 @@ header .menu li a {
 .review-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid for reviews */
-    gap: 1.5rem;
+    gap: 4rem;
 }
 
 .review {
