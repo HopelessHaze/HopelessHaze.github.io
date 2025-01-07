@@ -127,11 +127,11 @@ header .menu li a {
 /* Customer Reviews Section */
 .customer-reviews {
     text-align: center;
-    padding: 3rem; /* Increased for better spacing */
+    padding: 2rem; /* Increased for better spacing */
 }
 
 .customer-reviews h2 {
-    font-size: 2.5rem; /* Increased from 2rem to 2.5rem */
+    font-size: 5rem; /* Increased from 2rem to 2.5rem */
     margin-bottom: 1.5rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
@@ -150,11 +150,11 @@ header .menu li a {
 /* Why Choose Us Section */
 .why-choose-us {
     text-align: center;
-    padding: 3rem; /* Increased for better spacing */
+    padding: 2rem; /* Increased for better spacing */
 }
 
 .why-choose-us h2 {
-    font-size: 2.5rem; /* Increased from 2rem to 2.5rem */
+    font-size: 5rem; /* Increased from 2rem to 2.5rem */
     margin-bottom: 1.5rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
