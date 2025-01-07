@@ -289,13 +289,15 @@ header .menu li a {
 @media screen and (max-width: 768px) {
     header {
         flex-direction: column; /* Stack logo and navigation vertically */
-        text-align: left;
+        text-align: left; /* Align the header content to the left */
+        align-items: flex-start; /* Ensure content aligns to the left */
+        padding-left: 1rem; /* Add padding for a clean look */
     }
 
     header .menu {
         flex-direction: column; /* Stack navigation links */
         gap: 0.5rem; /* Reduce spacing between links */
-    }
+        align-items: flex-start; /* Align navigation links to the left */
 
     .features, .review-grid {
         grid-template-columns: 1fr; /* Single column layout on smaller screens */
@@ -310,8 +312,9 @@ header .menu li a {
     .hero h1 {
         font-size: 1.5rem; /* Resize font dynamically for smaller screens */
         line-height: 1.2; /* Maintain good readability */
-        white-space: nowrap; /* Prevent text wrapping */
-        overflow: hidden; /* Ensure text doesn't break or overflow */
+        white-space: normal; /* Allow wrapping */
+        word-break: normal; /* Do not break words in the middle */
+        overflow-wrap: break-word; /* Break lines between words if necessary */
     }
 
     .hero p {
