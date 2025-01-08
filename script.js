@@ -132,7 +132,7 @@ async function handleSearch() {
                 'Authorization': `Bearer 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` // OpenRouter API Key
             },
             body: JSON.stringify({
-                model: "gpt-3.5-turbo", // Specify the model you want to use
+                model: "openai/o1-preview", // Specify the model
                 messages: [{ role: "user", content: query }],
                 max_tokens: 150
             })
