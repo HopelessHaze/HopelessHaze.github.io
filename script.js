@@ -117,7 +117,7 @@ async function handleSearch() {
 
     if (!query) {
         searchResults.style.display = 'block';
-        searchResults.innerHTML = `<p>Please enter a question.</p>`;
+        searchResults.innerHTML = `<p>Please enter your Walmart question.</p>`;
         return;
     }
 
