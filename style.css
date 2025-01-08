@@ -140,6 +140,81 @@ header .menu li a {
     font-family: 'Inter', sans-serif;
 }
 
+/* Search Section */
+.search-section {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: var(--bg-grey-navy);
+    border-radius: 10px;
+    margin: 2rem auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-section h2 {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    background: linear-gradient(90deg, var(--text-gradient-start), var(--text-gradient-end));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1rem;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.search-input {
+    width: 70%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background: #1a1a1d;
+    color: #ffffff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.search-input:focus {
+    outline: none;
+    border: 2px solid var(--text-gradient-start);
+    box-shadow: 0 0 10px var(--text-gradient-start);
+}
+
+.search-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, var(--button-gradient-start), var(--button-gradient-end));
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.search-button:hover {
+    transform: scale(1.1);
+}
+
+.response-box {
+    padding: 1rem;
+    background: #1a1a1d;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    line-height: 1.5;
+    overflow-y: auto;
+    max-height: 300px;
+    display: none;
+}
+
 /* Customer Reviews Section */
 .customer-reviews {
     padding: 3rem;
